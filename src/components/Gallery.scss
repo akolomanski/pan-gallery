@@ -8,11 +8,12 @@
 
   img {
     width: 100%;
-    transition: all 0.3s ease-in-out;
+    
     &:hover {
       transform: scale(2);
     }
     &.full-screen {
+      transition: all 0.3s ease-in-out;
       width: 100%;
       height: 100%;
       position: fixed;
